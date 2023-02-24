@@ -12,5 +12,9 @@ disp(r2)
 t = -3:0.01:3;
 y = sin(t);
 
+fig = figure;
+
 plot(t,y)
 
+print(fig, 'myfigure.png', '-dpng');
+title('Output')
