@@ -5,6 +5,8 @@ rng('default')
 r2 = randi(10);
 
 disp(r2)
+
+r2 = randi(10);
 disp(r2)
 
 t = -3:0.01:3;
