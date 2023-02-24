@@ -15,6 +15,6 @@ y = sin(t);
 fig = figure;
 
 plot(t,y)
+title('Output')
 
 print(fig, 'myfigure.png', '-dpng');
-title('Output')
