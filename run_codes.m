@@ -6,6 +6,7 @@ r1 = randi(10);
 disp(r1)
 
 r2 = randi(10);
+
 disp(r2)
 
 t = -1*r1:0.01:r2;
